@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Two Dice Roller</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Two Dice Roller</h1>
+
+      <div class="status-row">
+        <div id="money" class="money" aria-live="polite">Balance: $0</div>
+      </div>
+
+      <div class="dice-row">
+        <div class="die" id="die1" aria-live="polite">⚀</div>
+        <div class="die" id="die2" aria-live="polite">⚀</div>
+      </div>
+
+      <div class="controls">
+        <button id="rollBtn">Roll</button>
+        <div id="result" class="result" aria-live="polite"></div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
